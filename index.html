@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <!-- Header with navbar-->
+  <header id="top">
+    <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+  </header>
+  <section class="videos">
+    <div id="video-section">
+        <div class="video">
+  <video autoplay loop muted controls width= 300px>
+    <source src="Sample Video.mp4" type="video/mp4">
+  </video>
+</div>
+  <div class="video">
+  <video autoplay loop muted controls width= 300px>
+    <source src="Sample Video 1.mp4" type="video/mp4">
+  </video>
+  </div>
+  <div class="video">
+  <video autoplay loop muted controls width= 300px>
+    <source src="Sample Video 2.mp4" type="video/mp4">
+  </video>
+</div>
+</div>
+
+  <!-- Home Section -->
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Explore my portfolio to learn more about my skills, experience, and projects.</p>
+        <audio controls>
+        <source src="Music.mp3" type="audio/mp3">
+      </audio>  
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I am an aspiring developer with a background in accounting and finance. I love building solutions and exploring new technologies.</p>
+      <ul>
+        <li>Proficient in HTML, CSS, and JavaScript</li>
+        <li>Experience with accounting and finance</li>
+        <li>Currently learning software development</li>
+      </ul>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <h2>My Work</h2>
+      <p>Listed below are some recent projects I've worked on:</p>
+      <table>
+        <tr>
+          <th>Project Name</th>
+          <th>Description</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Project 1</td>
+          <td>School Website</td>
+          <td><a href="School Website 1.html" target="_blank">School Website</a></td>
+          </tr>
+        <tr>
+          <td>Project 2</td>
+          <td>Website Search Engine</td>
+          <td><a href="https://www.google.com/" target="_blank">Google website</a></td>
+        </tr>
+      </table>
+    </section>
+
+ <!-- Resume Section -->
+    <section id="resume">
+      <h2>My Resume</h2>
+      <p>Link to resume <a href="Sample Resume.pdf" download>here</a>.</p>
+    </section>
+
+<!-- Contact Section-->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Toyin Oyewande. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
